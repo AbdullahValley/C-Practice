@@ -1,23 +1,13 @@
 #include <stdio.h>
+	int main(){
+	  int i,f=1,num;
 
-int main () {
+	  printf("Enter a number: ");
+	  scanf("%d",&num);
 
-   int a, b;
+	  for(i=1;i<=num;i++)
+	     f=f*i;
 
-   /* for loop execution */
-
-        for( b = 1; b < 10; b = b ++ )
-{
-      printf("%d\n", b);
-
-}
-   for( a = 10; a < 20; a = a ++ )
-
-{
-
-      printf("My Serial: %d\n", a);
-
-   }
-
-   return 0;
-}
+	  printf("Factorial of %d is: %d",num,f);
+	  return 0;
+	}
