@@ -9,7 +9,6 @@ int main()
 
     gets(input);
 
-
     if ( (input[0]>='a' && input[0]<='z') || (input[0]>='A' && input[0]<='Z') || (input[0]=='_') )
         {
             for(i=1; i<=strlen(input); i++)
